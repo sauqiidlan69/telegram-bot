@@ -61,26 +61,27 @@ Install with:
 ```bash
 pip install python-telegram-bot==20.3 requests
 
-🔧 Configuration
+##🔧 Configuration
 
 Update your API keys in the script:
 
 TELEGRAM_BOT_TOKEN = 'your-telegram-bot-token'
 OPENROUTER_API_KEY = 'your-openrouter-api-key'
 
-🏁 How to Run
+##🏁 How to Run
 
 python bot.py
 
 The bot will start polling Telegram for updates. Interact with it directly via Telegram.
-📚 File Structure
+
+##📚 File Structure
 
 .
 ├── bot.py             # Main bot logic
 ├── requirements.txt   # Python dependencies
 └── README.md          # This file
 
-✅ Best Practices
+##✅ Best Practices
 
     Keep your bot token and API key private.
 
@@ -88,15 +89,16 @@ The bot will start polling Telegram for updates. Interact with it directly via T
 
     Consider adding logging and error handling in production.
 
-📃 License
+##📃 License
 
 This project is open-source and available under the MIT License.
-🤝 Contributions
+
+##🤝 Contributions
 
 Pull requests and feedback are welcome!
 Feel free to fork and enhance the bot's capabilities — like PDF export, admin-only access, or multilingual support.
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Idlan – Telegram
 Built with love, logic, and plenty of coffee ☕️
