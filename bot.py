@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # ====== API keys ======
-TELEGRAM_BOT_TOKEN = '7041415171:AAG3KK3Va9yOeiCHAAwQOta0SBqeb664aZs'
-OPENROUTER_API_KEY = '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'
+TELEGRAM_BOT_TOKEN = 'your_telegram_bot_token_here'
+OPENROUTER_API_KEY = 'your_open_router_api_here'
 
 # ====== Define conversation states ======
 ISSUE, DONE, RESULT, RECOMMENDATION, CONFIRM = range(5)
